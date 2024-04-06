@@ -1,5 +1,8 @@
 # TutorialKit
 
+[![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://mit-license.org)
+
 ## Overview
 This project provides an interactive tutorial experience for iOS applications. Utilizing `TutorialViewController`, it showcases step-by-step guides with dynamic content including text, images, and highlighted areas.
 
@@ -19,5 +22,6 @@ This project can be installed using Swift Package Manager.
 
 For more details on using Swift Package Manager, visit [Apple's Swift Package Manager documentation](https://swift.org/package-manager/).
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## Author
+
+James Thang, find me on [LinkedIn]([https://www.linkedin.com/in/jamessedlacekjr/](https://www.linkedin.com/in/jamesthang/))
