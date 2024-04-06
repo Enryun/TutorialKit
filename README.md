@@ -23,6 +23,8 @@ For more details on using Swift Package Manager, visit [Apple's Swift Package Ma
 - Interactive elements like `TutorialContent` for engaging tutorials.
 - Flexible alignment and positioning with `TutorialAlignment`.
 
+## Usage
+
 ## Author
-James Thang, find me on [LinkedIn]([https://www.linkedin.com/in/jamesthang/])
+James Thang, find me on [LinkedIn](https://www.linkedin.com/in/jamesthang/)
 
