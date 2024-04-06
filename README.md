@@ -24,4 +24,5 @@ For more details on using Swift Package Manager, visit [Apple's Swift Package Ma
 - Flexible alignment and positioning with `TutorialAlignment`.
 
 ## Author
-James Thang, find me on [LinkedIn]([https://www.linkedin.com/in/jamessedlacekjr/](https://www.linkedin.com/in/jamesthang/))
+James Thang, find me on [LinkedIn]([https://www.linkedin.com/in/jamesthang/])
+
