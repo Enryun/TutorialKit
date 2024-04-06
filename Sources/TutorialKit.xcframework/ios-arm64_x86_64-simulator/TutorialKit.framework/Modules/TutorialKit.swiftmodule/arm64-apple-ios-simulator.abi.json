@@ -1,0 +1,2904 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TutorialKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TutorialKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FillColor",
+        "printedName": "FillColor",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(color:opacity:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FillColor",
+                "printedName": "TutorialKit.FillColor",
+                "usr": "s:11TutorialKit9FillColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11TutorialKit9FillColorV5color7opacityACSo7UIColorC_Sftcfc",
+            "mangledName": "$s11TutorialKit9FillColorV5color7opacityACSo7UIColorC_Sftcfc",
+            "moduleName": "TutorialKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11TutorialKit9FillColorV",
+        "mangledName": "$s11TutorialKit9FillColorV",
+        "moduleName": "TutorialKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TutorialKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TutorialKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Tutorial",
+        "printedName": "Tutorial",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(title:description:alignment:transparentArea:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tutorial",
+                "printedName": "TutorialKit.Tutorial",
+                "usr": "s:11TutorialKit0A0V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TutorialContent",
+                "printedName": "TutorialKit.TutorialContent",
+                "usr": "s:11TutorialKit0A7ContentV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[TutorialKit.TutorialContent]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TutorialContent",
+                    "printedName": "TutorialKit.TutorialContent",
+                    "usr": "s:11TutorialKit0A7ContentV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TutorialAlignment",
+                "printedName": "TutorialKit.TutorialAlignment",
+                "hasDefaultArg": true,
+                "usr": "s:11TutorialKit0A9AlignmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TutorialKit.TransparentArea?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransparentArea",
+                    "printedName": "TutorialKit.TransparentArea",
+                    "usr": "s:11TutorialKit15TransparentAreaV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11TutorialKit0A0V5title11description9alignment15transparentAreaAcA0A7ContentV_SayAIGAA0A9AlignmentOAA011TransparentG0VSgtcfc",
+            "mangledName": "$s11TutorialKit0A0V5title11description9alignment15transparentAreaAcA0A7ContentV_SayAIGAA0A9AlignmentOAA011TransparentG0VSgtcfc",
+            "moduleName": "TutorialKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11TutorialKit0A0V",
+        "mangledName": "$s11TutorialKit0A0V",
+        "moduleName": "TutorialKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TutorialKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TutorialKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TutorialAlignment",
+        "printedName": "TutorialAlignment",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "top",
+            "printedName": "top",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TutorialKit.TutorialAlignment.Type) -> TutorialKit.TutorialAlignment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TutorialAlignment",
+                    "printedName": "TutorialKit.TutorialAlignment",
+                    "usr": "s:11TutorialKit0A9AlignmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TutorialKit.TutorialAlignment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TutorialAlignment",
+                        "printedName": "TutorialKit.TutorialAlignment",
+                        "usr": "s:11TutorialKit0A9AlignmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TutorialKit0A9AlignmentO3topyA2CmF",
+            "mangledName": "$s11TutorialKit0A9AlignmentO3topyA2CmF",
+            "moduleName": "TutorialKit"
+          },
+          {
+            "kind": "Var",
+            "name": "topLeading",
+            "printedName": "topLeading",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TutorialKit.TutorialAlignment.Type) -> TutorialKit.TutorialAlignment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TutorialAlignment",
+                    "printedName": "TutorialKit.TutorialAlignment",
+                    "usr": "s:11TutorialKit0A9AlignmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TutorialKit.TutorialAlignment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TutorialAlignment",
+                        "printedName": "TutorialKit.TutorialAlignment",
+                        "usr": "s:11TutorialKit0A9AlignmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TutorialKit0A9AlignmentO10topLeadingyA2CmF",
+            "mangledName": "$s11TutorialKit0A9AlignmentO10topLeadingyA2CmF",
+            "moduleName": "TutorialKit"
+          },
+          {
+            "kind": "Var",
+            "name": "topTrailing",
+            "printedName": "topTrailing",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TutorialKit.TutorialAlignment.Type) -> TutorialKit.TutorialAlignment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TutorialAlignment",
+                    "printedName": "TutorialKit.TutorialAlignment",
+                    "usr": "s:11TutorialKit0A9AlignmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TutorialKit.TutorialAlignment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TutorialAlignment",
+                        "printedName": "TutorialKit.TutorialAlignment",
+                        "usr": "s:11TutorialKit0A9AlignmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TutorialKit0A9AlignmentO11topTrailingyA2CmF",
+            "mangledName": "$s11TutorialKit0A9AlignmentO11topTrailingyA2CmF",
+            "moduleName": "TutorialKit"
+          },
+          {
+            "kind": "Var",
+            "name": "center",
+            "printedName": "center",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TutorialKit.TutorialAlignment.Type) -> TutorialKit.TutorialAlignment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TutorialAlignment",
+                    "printedName": "TutorialKit.TutorialAlignment",
+                    "usr": "s:11TutorialKit0A9AlignmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TutorialKit.TutorialAlignment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TutorialAlignment",
+                        "printedName": "TutorialKit.TutorialAlignment",
+                        "usr": "s:11TutorialKit0A9AlignmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TutorialKit0A9AlignmentO6centeryA2CmF",
+            "mangledName": "$s11TutorialKit0A9AlignmentO6centeryA2CmF",
+            "moduleName": "TutorialKit"
+          },
+          {
+            "kind": "Var",
+            "name": "leading",
+            "printedName": "leading",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TutorialKit.TutorialAlignment.Type) -> TutorialKit.TutorialAlignment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TutorialAlignment",
+                    "printedName": "TutorialKit.TutorialAlignment",
+                    "usr": "s:11TutorialKit0A9AlignmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TutorialKit.TutorialAlignment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TutorialAlignment",
+                        "printedName": "TutorialKit.TutorialAlignment",
+                        "usr": "s:11TutorialKit0A9AlignmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TutorialKit0A9AlignmentO7leadingyA2CmF",
+            "mangledName": "$s11TutorialKit0A9AlignmentO7leadingyA2CmF",
+            "moduleName": "TutorialKit"
+          },
+          {
+            "kind": "Var",
+            "name": "trailing",
+            "printedName": "trailing",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TutorialKit.TutorialAlignment.Type) -> TutorialKit.TutorialAlignment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TutorialAlignment",
+                    "printedName": "TutorialKit.TutorialAlignment",
+                    "usr": "s:11TutorialKit0A9AlignmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TutorialKit.TutorialAlignment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TutorialAlignment",
+                        "printedName": "TutorialKit.TutorialAlignment",
+                        "usr": "s:11TutorialKit0A9AlignmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TutorialKit0A9AlignmentO8trailingyA2CmF",
+            "mangledName": "$s11TutorialKit0A9AlignmentO8trailingyA2CmF",
+            "moduleName": "TutorialKit"
+          },
+          {
+            "kind": "Var",
+            "name": "bottom",
+            "printedName": "bottom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TutorialKit.TutorialAlignment.Type) -> TutorialKit.TutorialAlignment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TutorialAlignment",
+                    "printedName": "TutorialKit.TutorialAlignment",
+                    "usr": "s:11TutorialKit0A9AlignmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TutorialKit.TutorialAlignment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TutorialAlignment",
+                        "printedName": "TutorialKit.TutorialAlignment",
+                        "usr": "s:11TutorialKit0A9AlignmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TutorialKit0A9AlignmentO6bottomyA2CmF",
+            "mangledName": "$s11TutorialKit0A9AlignmentO6bottomyA2CmF",
+            "moduleName": "TutorialKit"
+          },
+          {
+            "kind": "Var",
+            "name": "bottomLeading",
+            "printedName": "bottomLeading",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TutorialKit.TutorialAlignment.Type) -> TutorialKit.TutorialAlignment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TutorialAlignment",
+                    "printedName": "TutorialKit.TutorialAlignment",
+                    "usr": "s:11TutorialKit0A9AlignmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TutorialKit.TutorialAlignment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TutorialAlignment",
+                        "printedName": "TutorialKit.TutorialAlignment",
+                        "usr": "s:11TutorialKit0A9AlignmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TutorialKit0A9AlignmentO13bottomLeadingyA2CmF",
+            "mangledName": "$s11TutorialKit0A9AlignmentO13bottomLeadingyA2CmF",
+            "moduleName": "TutorialKit"
+          },
+          {
+            "kind": "Var",
+            "name": "bottomTrailing",
+            "printedName": "bottomTrailing",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TutorialKit.TutorialAlignment.Type) -> TutorialKit.TutorialAlignment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TutorialAlignment",
+                    "printedName": "TutorialKit.TutorialAlignment",
+                    "usr": "s:11TutorialKit0A9AlignmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TutorialKit.TutorialAlignment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TutorialAlignment",
+                        "printedName": "TutorialKit.TutorialAlignment",
+                        "usr": "s:11TutorialKit0A9AlignmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TutorialKit0A9AlignmentO14bottomTrailingyA2CmF",
+            "mangledName": "$s11TutorialKit0A9AlignmentO14bottomTrailingyA2CmF",
+            "moduleName": "TutorialKit"
+          },
+          {
+            "kind": "Var",
+            "name": "none",
+            "printedName": "none",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TutorialKit.TutorialAlignment.Type) -> TutorialKit.TutorialAlignment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TutorialAlignment",
+                    "printedName": "TutorialKit.TutorialAlignment",
+                    "usr": "s:11TutorialKit0A9AlignmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TutorialKit.TutorialAlignment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TutorialAlignment",
+                        "printedName": "TutorialKit.TutorialAlignment",
+                        "usr": "s:11TutorialKit0A9AlignmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TutorialKit0A9AlignmentO4noneyA2CmF",
+            "mangledName": "$s11TutorialKit0A9AlignmentO4noneyA2CmF",
+            "moduleName": "TutorialKit"
+          },
+          {
+            "kind": "Var",
+            "name": "position",
+            "printedName": "position",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TutorialKit.TutorialAlignment.Type) -> (CoreGraphics.CGFloat, CoreGraphics.CGFloat, TutorialKit.TutorialEdge) -> TutorialKit.TutorialAlignment",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreGraphics.CGFloat, CoreGraphics.CGFloat, TutorialKit.TutorialEdge) -> TutorialKit.TutorialAlignment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TutorialAlignment",
+                        "printedName": "TutorialKit.TutorialAlignment",
+                        "usr": "s:11TutorialKit0A9AlignmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(x: CoreGraphics.CGFloat, y: CoreGraphics.CGFloat, edge: TutorialKit.TutorialEdge)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CGFloat",
+                            "printedName": "CoreGraphics.CGFloat",
+                            "usr": "s:14CoreFoundation7CGFloatV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CGFloat",
+                            "printedName": "CoreGraphics.CGFloat",
+                            "usr": "s:14CoreFoundation7CGFloatV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "TutorialEdge",
+                            "printedName": "TutorialKit.TutorialEdge",
+                            "usr": "s:11TutorialKit0A4EdgeO"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TutorialKit.TutorialAlignment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TutorialAlignment",
+                        "printedName": "TutorialKit.TutorialAlignment",
+                        "usr": "s:11TutorialKit0A9AlignmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TutorialKit0A9AlignmentO8positionyAC14CoreFoundation7CGFloatV_AgA0A4EdgeOtcACmF",
+            "mangledName": "$s11TutorialKit0A9AlignmentO8positionyAC12CoreGraphics7CGFloatV_AgA0A4EdgeOtcACmF",
+            "moduleName": "TutorialKit"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11TutorialKit0A9AlignmentO",
+        "mangledName": "$s11TutorialKit0A9AlignmentO",
+        "moduleName": "TutorialKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TutorialEdge",
+        "printedName": "TutorialEdge",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "leading",
+            "printedName": "leading",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TutorialKit.TutorialEdge.Type) -> TutorialKit.TutorialEdge",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TutorialEdge",
+                    "printedName": "TutorialKit.TutorialEdge",
+                    "usr": "s:11TutorialKit0A4EdgeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TutorialKit.TutorialEdge.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TutorialEdge",
+                        "printedName": "TutorialKit.TutorialEdge",
+                        "usr": "s:11TutorialKit0A4EdgeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TutorialKit0A4EdgeO7leadingyA2CmF",
+            "mangledName": "$s11TutorialKit0A4EdgeO7leadingyA2CmF",
+            "moduleName": "TutorialKit"
+          },
+          {
+            "kind": "Var",
+            "name": "trailing",
+            "printedName": "trailing",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TutorialKit.TutorialEdge.Type) -> TutorialKit.TutorialEdge",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TutorialEdge",
+                    "printedName": "TutorialKit.TutorialEdge",
+                    "usr": "s:11TutorialKit0A4EdgeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TutorialKit.TutorialEdge.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TutorialEdge",
+                        "printedName": "TutorialKit.TutorialEdge",
+                        "usr": "s:11TutorialKit0A4EdgeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TutorialKit0A4EdgeO8trailingyA2CmF",
+            "mangledName": "$s11TutorialKit0A4EdgeO8trailingyA2CmF",
+            "moduleName": "TutorialKit"
+          },
+          {
+            "kind": "Var",
+            "name": "center",
+            "printedName": "center",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TutorialKit.TutorialEdge.Type) -> TutorialKit.TutorialEdge",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TutorialEdge",
+                    "printedName": "TutorialKit.TutorialEdge",
+                    "usr": "s:11TutorialKit0A4EdgeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TutorialKit.TutorialEdge.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TutorialEdge",
+                        "printedName": "TutorialKit.TutorialEdge",
+                        "usr": "s:11TutorialKit0A4EdgeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TutorialKit0A4EdgeO6centeryA2CmF",
+            "mangledName": "$s11TutorialKit0A4EdgeO6centeryA2CmF",
+            "moduleName": "TutorialKit"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TutorialEdge",
+                "printedName": "TutorialKit.TutorialEdge",
+                "usr": "s:11TutorialKit0A4EdgeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TutorialEdge",
+                "printedName": "TutorialKit.TutorialEdge",
+                "usr": "s:11TutorialKit0A4EdgeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TutorialKit0A4EdgeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11TutorialKit0A4EdgeO2eeoiySbAC_ACtFZ",
+            "moduleName": "TutorialKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TutorialKit0A4EdgeO9hashValueSivp",
+            "mangledName": "$s11TutorialKit0A4EdgeO9hashValueSivp",
+            "moduleName": "TutorialKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TutorialKit0A4EdgeO9hashValueSivg",
+                "mangledName": "$s11TutorialKit0A4EdgeO9hashValueSivg",
+                "moduleName": "TutorialKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TutorialKit0A4EdgeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s11TutorialKit0A4EdgeO4hash4intoys6HasherVz_tF",
+            "moduleName": "TutorialKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11TutorialKit0A4EdgeO",
+        "mangledName": "$s11TutorialKit0A4EdgeO",
+        "moduleName": "TutorialKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TutorialKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TutorialKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TutorialSound",
+        "printedName": "TutorialSound",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "tap",
+            "printedName": "tap",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TutorialKit.TutorialSound.Type) -> TutorialKit.TutorialSound",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TutorialSound",
+                    "printedName": "TutorialKit.TutorialSound",
+                    "usr": "s:11TutorialKit0A5SoundO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TutorialKit.TutorialSound.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TutorialSound",
+                        "printedName": "TutorialKit.TutorialSound",
+                        "usr": "s:11TutorialKit0A5SoundO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TutorialKit0A5SoundO3tapyA2CmF",
+            "mangledName": "$s11TutorialKit0A5SoundO3tapyA2CmF",
+            "moduleName": "TutorialKit"
+          },
+          {
+            "kind": "Var",
+            "name": "none",
+            "printedName": "none",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TutorialKit.TutorialSound.Type) -> TutorialKit.TutorialSound",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TutorialSound",
+                    "printedName": "TutorialKit.TutorialSound",
+                    "usr": "s:11TutorialKit0A5SoundO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TutorialKit.TutorialSound.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TutorialSound",
+                        "printedName": "TutorialKit.TutorialSound",
+                        "usr": "s:11TutorialKit0A5SoundO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TutorialKit0A5SoundO4noneyA2CmF",
+            "mangledName": "$s11TutorialKit0A5SoundO4noneyA2CmF",
+            "moduleName": "TutorialKit"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TutorialSound",
+                "printedName": "TutorialKit.TutorialSound",
+                "usr": "s:11TutorialKit0A5SoundO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TutorialSound",
+                "printedName": "TutorialKit.TutorialSound",
+                "usr": "s:11TutorialKit0A5SoundO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TutorialKit0A5SoundO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11TutorialKit0A5SoundO2eeoiySbAC_ACtFZ",
+            "moduleName": "TutorialKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TutorialKit0A5SoundO9hashValueSivp",
+            "mangledName": "$s11TutorialKit0A5SoundO9hashValueSivp",
+            "moduleName": "TutorialKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TutorialKit0A5SoundO9hashValueSivg",
+                "mangledName": "$s11TutorialKit0A5SoundO9hashValueSivg",
+                "moduleName": "TutorialKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TutorialKit0A5SoundO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s11TutorialKit0A5SoundO4hash4intoys6HasherVz_tF",
+            "moduleName": "TutorialKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11TutorialKit0A5SoundO",
+        "mangledName": "$s11TutorialKit0A5SoundO",
+        "moduleName": "TutorialKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TutorialKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TutorialKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TutorialContent",
+        "printedName": "TutorialContent",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(text:image:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TutorialContent",
+                "printedName": "TutorialKit.TutorialContent",
+                "usr": "s:11TutorialKit0A7ContentV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11TutorialKit0A7ContentV4text5imageACSS_So7UIImageCSgtcfc",
+            "mangledName": "$s11TutorialKit0A7ContentV4text5imageACSS_So7UIImageCSgtcfc",
+            "moduleName": "TutorialKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11TutorialKit0A7ContentV",
+        "mangledName": "$s11TutorialKit0A7ContentV",
+        "moduleName": "TutorialKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TutorialKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TutorialKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TutorialKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BackgroundColor",
+        "printedName": "BackgroundColor",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(ligtModeColor:darkModeColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BackgroundColor",
+                "printedName": "TutorialKit.BackgroundColor",
+                "usr": "s:11TutorialKit15BackgroundColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FillColor",
+                "printedName": "TutorialKit.FillColor",
+                "hasDefaultArg": true,
+                "usr": "s:11TutorialKit9FillColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FillColor",
+                "printedName": "TutorialKit.FillColor",
+                "hasDefaultArg": true,
+                "usr": "s:11TutorialKit9FillColorV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11TutorialKit15BackgroundColorV08ligtModeD004darkfD0AcA04FillD0V_AGtcfc",
+            "mangledName": "$s11TutorialKit15BackgroundColorV08ligtModeD004darkfD0AcA04FillD0V_AGtcfc",
+            "moduleName": "TutorialKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11TutorialKit15BackgroundColorV",
+        "mangledName": "$s11TutorialKit15BackgroundColorV",
+        "moduleName": "TutorialKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TutorialKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TutorialKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Alignment",
+        "printedName": "Alignment",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "top",
+            "printedName": "top",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TutorialKit.Alignment.Type) -> TutorialKit.Alignment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Alignment",
+                    "printedName": "TutorialKit.Alignment",
+                    "usr": "s:11TutorialKit9AlignmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TutorialKit.Alignment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Alignment",
+                        "printedName": "TutorialKit.Alignment",
+                        "usr": "s:11TutorialKit9AlignmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TutorialKit9AlignmentO3topyA2CmF",
+            "mangledName": "$s11TutorialKit9AlignmentO3topyA2CmF",
+            "moduleName": "TutorialKit"
+          },
+          {
+            "kind": "Var",
+            "name": "center",
+            "printedName": "center",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TutorialKit.Alignment.Type) -> TutorialKit.Alignment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Alignment",
+                    "printedName": "TutorialKit.Alignment",
+                    "usr": "s:11TutorialKit9AlignmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TutorialKit.Alignment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Alignment",
+                        "printedName": "TutorialKit.Alignment",
+                        "usr": "s:11TutorialKit9AlignmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TutorialKit9AlignmentO6centeryA2CmF",
+            "mangledName": "$s11TutorialKit9AlignmentO6centeryA2CmF",
+            "moduleName": "TutorialKit"
+          },
+          {
+            "kind": "Var",
+            "name": "bottom",
+            "printedName": "bottom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TutorialKit.Alignment.Type) -> TutorialKit.Alignment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Alignment",
+                    "printedName": "TutorialKit.Alignment",
+                    "usr": "s:11TutorialKit9AlignmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TutorialKit.Alignment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Alignment",
+                        "printedName": "TutorialKit.Alignment",
+                        "usr": "s:11TutorialKit9AlignmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TutorialKit9AlignmentO6bottomyA2CmF",
+            "mangledName": "$s11TutorialKit9AlignmentO6bottomyA2CmF",
+            "moduleName": "TutorialKit"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Alignment",
+                "printedName": "TutorialKit.Alignment",
+                "usr": "s:11TutorialKit9AlignmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Alignment",
+                "printedName": "TutorialKit.Alignment",
+                "usr": "s:11TutorialKit9AlignmentO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TutorialKit9AlignmentO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11TutorialKit9AlignmentO2eeoiySbAC_ACtFZ",
+            "moduleName": "TutorialKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TutorialKit9AlignmentO9hashValueSivp",
+            "mangledName": "$s11TutorialKit9AlignmentO9hashValueSivp",
+            "moduleName": "TutorialKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TutorialKit9AlignmentO9hashValueSivg",
+                "mangledName": "$s11TutorialKit9AlignmentO9hashValueSivg",
+                "moduleName": "TutorialKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TutorialKit9AlignmentO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s11TutorialKit9AlignmentO4hash4intoys6HasherVz_tF",
+            "moduleName": "TutorialKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11TutorialKit9AlignmentO",
+        "mangledName": "$s11TutorialKit9AlignmentO",
+        "moduleName": "TutorialKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TutorialKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TutorialKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TutorialConfiguration",
+        "printedName": "TutorialConfiguration",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(title:description:backgroundColor:sound:alignment:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TutorialConfiguration",
+                "printedName": "TutorialKit.TutorialConfiguration",
+                "usr": "s:11TutorialKit0A13ConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TextConfiguration",
+                "printedName": "TutorialKit.TextConfiguration",
+                "hasDefaultArg": true,
+                "usr": "s:11TutorialKit17TextConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TextConfiguration",
+                "printedName": "TutorialKit.TextConfiguration",
+                "hasDefaultArg": true,
+                "usr": "s:11TutorialKit17TextConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BackgroundColor",
+                "printedName": "TutorialKit.BackgroundColor",
+                "hasDefaultArg": true,
+                "usr": "s:11TutorialKit15BackgroundColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TutorialSound",
+                "printedName": "TutorialKit.TutorialSound",
+                "hasDefaultArg": true,
+                "usr": "s:11TutorialKit0A5SoundO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Alignment",
+                "printedName": "TutorialKit.Alignment",
+                "hasDefaultArg": true,
+                "usr": "s:11TutorialKit9AlignmentO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11TutorialKit0A13ConfigurationV5title11description15backgroundColor5sound9alignmentAcA04TextC0V_AjA010BackgroundG0VAA0A5SoundOAA9AlignmentOtcfc",
+            "mangledName": "$s11TutorialKit0A13ConfigurationV5title11description15backgroundColor5sound9alignmentAcA04TextC0V_AjA010BackgroundG0VAA0A5SoundOAA9AlignmentOtcfc",
+            "moduleName": "TutorialKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11TutorialKit0A13ConfigurationV",
+        "mangledName": "$s11TutorialKit0A13ConfigurationV",
+        "moduleName": "TutorialKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TutorialKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TutorialViewController",
+        "printedName": "TutorialViewController",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(data:configuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TutorialViewController",
+                "printedName": "TutorialKit.TutorialViewController",
+                "usr": "c:@M@TutorialKit@objc(cs)TutorialViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[TutorialKit.Tutorial]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tutorial",
+                    "printedName": "TutorialKit.Tutorial",
+                    "usr": "s:11TutorialKit0A0V"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TutorialConfiguration",
+                "printedName": "TutorialKit.TutorialConfiguration",
+                "hasDefaultArg": true,
+                "usr": "s:11TutorialKit0A13ConfigurationV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11TutorialKit0A14ViewControllerC4data13configurationACSayAA0A0VG_AA0A13ConfigurationVtcfc",
+            "mangledName": "$s11TutorialKit0A14ViewControllerC4data13configurationACSayAA0A0VG_AA0A13ConfigurationVtcfc",
+            "moduleName": "TutorialKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TutorialKit.TutorialViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TutorialViewController",
+                    "printedName": "TutorialKit.TutorialViewController",
+                    "usr": "c:@M@TutorialKit@objc(cs)TutorialViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TutorialKit@objc(cs)TutorialViewController(im)initWithCoder:",
+            "mangledName": "$s11TutorialKit0A14ViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "TutorialKit",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TutorialKit@objc(cs)TutorialViewController(im)viewDidLoad",
+            "mangledName": "$s11TutorialKit0A14ViewControllerC11viewDidLoadyyF",
+            "moduleName": "TutorialKit",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showTutorials",
+            "printedName": "showTutorials()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TutorialKit0A14ViewControllerC13showTutorialsyyF",
+            "mangledName": "$s11TutorialKit0A14ViewControllerC13showTutorialsyyF",
+            "moduleName": "TutorialKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TutorialViewController",
+                "printedName": "TutorialKit.TutorialViewController",
+                "usr": "c:@M@TutorialKit@objc(cs)TutorialViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TutorialKit@objc(cs)TutorialViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s11TutorialKit0A14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "TutorialKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "tableView",
+            "printedName": "tableView(_:numberOfRowsInSection:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableView",
+                "printedName": "UIKit.UITableView",
+                "usr": "c:objc(cs)UITableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@TutorialKit@objc(cs)TutorialViewController(im)tableView:numberOfRowsInSection:",
+            "mangledName": "$s11TutorialKit0A14ViewControllerC05tableC0_21numberOfRowsInSectionSiSo07UITableC0C_SitF",
+            "moduleName": "TutorialKit",
+            "objc_name": "tableView:numberOfRowsInSection:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tableView",
+            "printedName": "tableView(_:cellForRowAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UITableViewCell",
+                "printedName": "UIKit.UITableViewCell",
+                "usr": "c:objc(cs)UITableViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableView",
+                "printedName": "UIKit.UITableView",
+                "usr": "c:objc(cs)UITableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@TutorialKit@objc(cs)TutorialViewController(im)tableView:cellForRowAtIndexPath:",
+            "mangledName": "$s11TutorialKit0A14ViewControllerC05tableC0_12cellForRowAtSo07UITableC4CellCSo0jC0C_10Foundation9IndexPathVtF",
+            "moduleName": "TutorialKit",
+            "objc_name": "tableView:cellForRowAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tableView",
+            "printedName": "tableView(_:estimatedHeightForRowAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableView",
+                "printedName": "UIKit.UITableView",
+                "usr": "c:objc(cs)UITableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@TutorialKit@objc(cs)TutorialViewController(im)tableView:estimatedHeightForRowAtIndexPath:",
+            "mangledName": "$s11TutorialKit0A14ViewControllerC05tableC0_23estimatedHeightForRowAt12CoreGraphics7CGFloatVSo07UITableC0C_10Foundation9IndexPathVtF",
+            "moduleName": "TutorialKit",
+            "objc_name": "tableView:estimatedHeightForRowAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tableView",
+            "printedName": "tableView(_:heightForRowAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableView",
+                "printedName": "UIKit.UITableView",
+                "usr": "c:objc(cs)UITableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@TutorialKit@objc(cs)TutorialViewController(im)tableView:heightForRowAtIndexPath:",
+            "mangledName": "$s11TutorialKit0A14ViewControllerC05tableC0_14heightForRowAt12CoreGraphics7CGFloatVSo07UITableC0C_10Foundation9IndexPathVtF",
+            "moduleName": "TutorialKit",
+            "objc_name": "tableView:heightForRowAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@TutorialKit@objc(cs)TutorialViewController",
+        "mangledName": "$s11TutorialKit0A14ViewControllerC",
+        "moduleName": "TutorialKit",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TutorialKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TutorialKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TransparentArea",
+        "printedName": "TransparentArea",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(x:y:width:height:cornerRadius:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TransparentArea",
+                "printedName": "TutorialKit.TransparentArea",
+                "usr": "s:11TutorialKit15TransparentAreaV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11TutorialKit15TransparentAreaV1x1y5width6height12cornerRadiusAC14CoreFoundation7CGFloatV_A4Ktcfc",
+            "mangledName": "$s11TutorialKit15TransparentAreaV1x1y5width6height12cornerRadiusAC12CoreGraphics7CGFloatV_A4Ktcfc",
+            "moduleName": "TutorialKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11TutorialKit15TransparentAreaV",
+        "mangledName": "$s11TutorialKit15TransparentAreaV",
+        "moduleName": "TutorialKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "TutorialKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TutorialKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TutorialKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TextConfiguration",
+        "printedName": "TextConfiguration",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(font:textColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TextConfiguration",
+                "printedName": "TutorialKit.TextConfiguration",
+                "usr": "s:11TutorialKit17TextConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "usr": "c:objc(cs)UIFont"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11TutorialKit17TextConfigurationV4font9textColorACSo6UIFontC_So7UIColorCtcfc",
+            "mangledName": "$s11TutorialKit17TextConfigurationV4font9textColorACSo6UIFontC_So7UIColorCtcfc",
+            "moduleName": "TutorialKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11TutorialKit17TextConfigurationV",
+        "mangledName": "$s11TutorialKit17TextConfigurationV",
+        "moduleName": "TutorialKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIView",
+        "printedName": "UIView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "removeAllConstraints",
+            "printedName": "removeAllConstraints()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC11TutorialKitE20removeAllConstraintsyyF",
+            "mangledName": "$sSo6UIViewC11TutorialKitE20removeAllConstraintsyyF",
+            "moduleName": "TutorialKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIView",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIView",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Model\/TutorialData\/Tutorial.swift",
+      "kind": "Array",
+      "offset": 1294,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 206,
+      "length": 36,
+      "value": "\"DescriptionTableViewCellIdentifier\""
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 396,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 467,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 781,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 936,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 996,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "kind": "Array",
+      "offset": 1134,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1921,
+      "length": 2,
+      "value": "34"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1984,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2084,
+      "length": 2,
+      "value": "-8"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2252,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2261,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2272,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2282,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 2353,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2807,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2901,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6189,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Model\/TutorialConfiguration\/BackgroundColor.swift",
+      "kind": "FloatLiteral",
+      "offset": 1039,
+      "length": 4,
+      "value": "0.87"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Model\/TutorialConfiguration\/BackgroundColor.swift",
+      "kind": "FloatLiteral",
+      "offset": 1109,
+      "length": 4,
+      "value": "0.95"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Model\/TutorialConfiguration\/Configuration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1380,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Model\/TutorialConfiguration\/Configuration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1497,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1345,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1532,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1603,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1947,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2110,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2170,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2450,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2505,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2590,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2828,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "Array",
+      "offset": 2986,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "Array",
+      "offset": 3040,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3383,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3462,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4367,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5239,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6046,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6109,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6327,
+      "length": 2,
+      "value": "-8"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6493,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6587,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7129,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7135,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7227,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7302,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8136,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8538,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1137,
+      "length": 22,
+      "value": "\"TutorialKit.TutorialViewController\""
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9239,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9330,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9449,
+      "length": 3,
+      "value": "-24"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9807,
+      "length": 3,
+      "value": "-50"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9899,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10018,
+      "length": 3,
+      "value": "-24"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10394,
+      "length": 3,
+      "value": "-24"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10486,
+      "length": 3,
+      "value": "-16"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10603,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10976,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11079,
+      "length": 3,
+      "value": "-24"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11283,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11386,
+      "length": 3,
+      "value": "-24"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11604,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11697,
+      "length": 3,
+      "value": "-24"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "Array",
+      "offset": 11989,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12273,
+      "length": 3,
+      "value": "-24"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12451,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12910,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13029,
+      "length": 3,
+      "value": "-24"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13592,
+      "length": 3,
+      "value": "-24"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13775,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14043,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14144,
+      "length": 3,
+      "value": "-24"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14309,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14406,
+      "length": 3,
+      "value": "-24"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 16024,
+      "length": 7,
+      "value": "\"hint1\""
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 16039,
+      "length": 5,
+      "value": "\"mp3\""
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17208,
+      "length": 2,
+      "value": "34"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17317,
+      "length": 2,
+      "value": "34"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17366,
+      "length": 3,
+      "value": "400"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17372,
+      "length": 3,
+      "value": "400"
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Manager\/PlaySoundManager.swift",
+      "kind": "StringLiteral",
+      "offset": 356,
+      "length": 28,
+      "value": "\"com.jamesthang.TutorialKit\""
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Manager\/PlaySoundManager.swift",
+      "kind": "StringLiteral",
+      "offset": 613,
+      "length": 18,
+      "value": "\"Error play sound\""
+    },
+    {
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Manager\/PlaySoundManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 925,
+      "length": 4,
+      "value": "1330"
+    }
+  ]
+}

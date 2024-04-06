@@ -1,0 +1,11 @@
+framework module TutorialKit {
+  umbrella header "TutorialKit.h"
+  export *
+
+  module * { export * }
+}
+
+module TutorialKit.Swift {
+  header "TutorialKit-Swift.h"
+  requires objc
+}

@@ -1,0 +1,97 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TutorialKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import Foundation
+import Swift
+@_exported import TutorialKit
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct FillColor {
+  public init(color: UIKit.UIColor, opacity: Swift.Float)
+}
+public struct Tutorial {
+  public init(title: TutorialKit.TutorialContent, description: [TutorialKit.TutorialContent] = [], alignment: TutorialKit.TutorialAlignment = .none, transparentArea: TutorialKit.TransparentArea? = nil)
+}
+public enum TutorialAlignment {
+  case top
+  case topLeading
+  case topTrailing
+  case center
+  case leading
+  case trailing
+  case bottom
+  case bottomLeading
+  case bottomTrailing
+  case none
+  case position(x: CoreFoundation.CGFloat, y: CoreFoundation.CGFloat, edge: TutorialKit.TutorialEdge = .leading)
+}
+public enum TutorialEdge {
+  case leading
+  case trailing
+  case center
+  public static func == (a: TutorialKit.TutorialEdge, b: TutorialKit.TutorialEdge) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum TutorialSound {
+  case tap
+  case none
+  public static func == (a: TutorialKit.TutorialSound, b: TutorialKit.TutorialSound) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct TutorialContent {
+  public init(text: Swift.String, image: UIKit.UIImage? = nil)
+}
+extension UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public func removeAllConstraints()
+}
+public struct BackgroundColor {
+  public init(ligtModeColor: TutorialKit.FillColor = .init(color: UIColor.systemOrange, opacity: 0.87), darkModeColor: TutorialKit.FillColor = .init(color: UIColor.gray, opacity: 0.95))
+}
+public enum Alignment {
+  case top
+  case center
+  case bottom
+  public static func == (a: TutorialKit.Alignment, b: TutorialKit.Alignment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct TutorialConfiguration {
+  public init(title: TutorialKit.TextConfiguration = .init(font: .systemFont(ofSize: 32, weight: .semibold), textColor: .black), description: TutorialKit.TextConfiguration = .init(font: .systemFont(ofSize: 18, weight: .regular), textColor: .black), backgroundColor: TutorialKit.BackgroundColor = .init(), sound: TutorialKit.TutorialSound = .none, alignment: TutorialKit.Alignment = .center)
+}
+@objc @_Concurrency.MainActor(unsafe) public class TutorialViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public init(data: [TutorialKit.Tutorial], configuration: TutorialKit.TutorialConfiguration = .init())
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) public func showTutorials()
+  @objc deinit
+}
+extension TutorialKit.TutorialViewController : UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, estimatedHeightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
+}
+public struct TransparentArea {
+  public init(x: CoreFoundation.CGFloat, y: CoreFoundation.CGFloat, width: CoreFoundation.CGFloat, height: CoreFoundation.CGFloat, cornerRadius: CoreFoundation.CGFloat)
+}
+public struct TextConfiguration {
+  public init(font: UIKit.UIFont, textColor: UIKit.UIColor)
+}
+extension TutorialKit.TutorialEdge : Swift.Equatable {}
+extension TutorialKit.TutorialEdge : Swift.Hashable {}
+extension TutorialKit.TutorialSound : Swift.Equatable {}
+extension TutorialKit.TutorialSound : Swift.Hashable {}
+extension TutorialKit.Alignment : Swift.Equatable {}
+extension TutorialKit.Alignment : Swift.Hashable {}
