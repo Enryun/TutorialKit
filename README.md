@@ -17,7 +17,7 @@
 
 `TutorialKit` help developers create interactive tutorial experience for iOS applications. Utilizing `TutorialViewController`, it showcases step-by-step guides with dynamic content including text, images, and highlighted areas.
 
-![TutorialKit](https://github.com/Enryun/TutorialKit/assets/45484154/7ddce1ee-6783-4a55-9197-26e1abbce29a)
+![TutorialKit](https://github.com/Enryun/TutorialKit/assets/45484154/7ddce1ee-6783-4a55-9197-26e1abbce29a | width=100)
 
 ## Requirements
 
@@ -33,7 +33,7 @@ This project can be installed using Swift Package Manager.
 3. Paste the repository URL: `https://github.com/Enryun/TutorialKit`
 4. Follow the prompts to add the package to your project.
 
-For more details on using Swift Package Manager, visit [Apple's Swift Package Manager documentation](https://swift.org/package-manager/ | width=100).
+For more details on using Swift Package Manager, visit [Apple's Swift Package Manager documentation](https://swift.org/package-manager/).
 
 ## Features
 - Customizable tutorial steps with `Tutorial` structs.
