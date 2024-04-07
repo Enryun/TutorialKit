@@ -18,7 +18,7 @@
 `TutorialKit` help developers create interactive tutorial experience for iOS applications. Utilizing `TutorialViewController`, it showcases step-by-step guides with dynamic content including text, images, and highlighted areas.
 
 <img src="https://github.com/Enryun/TutorialKit/assets/45484154/7ddce1ee-6783-4a55-9197-26e1abbce29a" width="200">
-![TutorialKit2](https://github.com/Enryun/TutorialKit/assets/45484154/a53fd5a3-1a92-4a42-b5e1-4645345e92aa)
+<img src="https://github.com/Enryun/TutorialKit/assets/45484154/a53fd5a3-1a92-4a42-b5e1-4645345e92aa" width="200">
 
 ## Requirements
 
