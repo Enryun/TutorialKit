@@ -33,7 +33,7 @@ This project can be installed using Swift Package Manager.
 3. Paste the repository URL: `https://github.com/Enryun/TutorialKit`
 4. Follow the prompts to add the package to your project.
 
-For more details on using Swift Package Manager, visit [Apple's Swift Package Manager documentation](https://swift.org/package-manager/).
+For more details on using Swift Package Manager, visit [Apple's Swift Package Manager documentation](https://swift.org/package-manager/ | width=100).
 
 ## Features
 - Customizable tutorial steps with `Tutorial` structs.
