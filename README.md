@@ -52,6 +52,8 @@ import TutorialKit
 
 ### 2. Configure the tutorial appearance by creating an instance of `TutorialConfiguration`:
 
+Defines the overall look, feel, and behavior of the tutorial experience. Allows developers to tailor the tutorial component to seamlessly fit within the aesthetic and functional aspects of their app.
+
 ```swift
 let configuration = TutorialConfiguration(
             title: .init(font: .systemFont(ofSize: 24, weight: .semibold), textColor: .label),
@@ -116,6 +118,7 @@ let vc = TutorialViewController(data: tutorials, configuration: configuration)
 vc.showTutorials()
 present(vc, animated: true)
 ```
+
 That's it. When finished navigate through the data array, `TutorialViewController` will automatically be removed.
 
 ## Examples
