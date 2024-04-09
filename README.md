@@ -62,7 +62,11 @@ let configuration = TutorialConfiguration(
         )
 ```
 
-You can customize the title, description, background color, sound, and alignment.
+You can customize the title, description, background color, sound, and alignment:
+- `title` and `description`: Customize fonts, sizes, and colors for titles and descriptions that later set up with `Tutorial`.
+- `backgroundColor`: Set different colors and opacities for the tutorial overlay layer, with distinct settings for light and dark modes.
+- `sound`: Choose a sound effect for interactive elements within the tutorial, enhancing the user experience.
+- `alignment` here is Global Alignment: Specifies the default alignment for tutorial steps, with the option for individual steps to override this setting later when configure individual `Tutorial`.
 
 ### 3. Configure the Tutorial Data:
 
