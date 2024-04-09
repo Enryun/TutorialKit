@@ -44,6 +44,76 @@ For more details on using Swift Package Manager, visit [Apple's Swift Package Ma
 
 ## Usage
 
+### 1. Import `TutorialKit` into your view controller:
+
+```swift
+import TutorialKit
+```
+
+### 2. Configure the tutorial appearance by creating an instance of `TutorialConfiguration`:
+
+```swift
+let configuration = TutorialConfiguration(
+            title: .init(font: .systemFont(ofSize: 24, weight: .semibold), textColor: .label),
+            description: .init(font: .systemFont(ofSize: 16, weight: .regular), textColor: .label),
+            backgroundColor: BackgroundColor(ligtModeColor: .init(color: .systemYellow, opacity: 0.7), darkModeColor: .init(color: .systemGreen, opacity: 0.3)),
+            sound: .tap,
+            alignment: .bottom
+        )
+```
+
+You can customize the title, description, background color, sound, and alignment.
+
+### 3. Configure the Tutorial Data:
+
+Prepare the data for each tutorial step by creating instances of `Tutorial`. Each instance can include a title, description(s), alignment, and a defined transparent area.
+
+```swift
+let tutorials = [
+    Tutorial(
+        title: .init(
+            text: "Study Category",
+            image: UIImage(systemName: "heart")?
+                .withRenderingMode(.alwaysOriginal)
+                .withTintColor(.label)
+        ),
+        description: [
+            .init(
+                text: "group common things together",
+                image: UIImage(systemName: "lightbulb.circle")?
+                    .withRenderingMode(.alwaysOriginal)
+                    .withTintColor(.label)
+            ),
+            .init(
+                text: "Ex: Lessons from the same Subject",
+                image: UIImage(systemName: "lightbulb.circle")?
+                    .withRenderingMode(.alwaysOriginal)
+                    .withTintColor(.label)
+            )
+        ],
+        alignment: .bottom,
+        transparentArea: .init(x: 100, y: 100, width: 150, height: 150, cornerRadius: 0)
+    )
+    // Add more Tutorial instances as needed.
+]
+```
+
+- `title`: The main heading of a tutorial step, optionally accompanied by an image to illustrate the concept.
+- `description`: Detailed information or instructions for the tutorial step, which can also include images for a more engaging presentation.
+- `alignment`: Determines the screen position of the tutorial content, aiding in highlighting various UI elements.
+- `transparentArea`: Defines a specific area of the screen to remain visible and interactive, focusing the user's attention on certain actions or features.
+
+### 4.  Initialize and Present the TutorialViewController:
+
+Create an instance of TutorialViewController with your data and configuration, then present it.
+
+```swift
+let vc = TutorialViewController(data: tutorials, configuration: configuration)
+vc.showTutorials()
+present(vc, animated: true)
+```
+That's it. When finished navigate through the data array, `TutorialViewController` will automatically be removed.
+
 ## Examples
 
 ## Author
