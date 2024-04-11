@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/TutorialKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		+Jvtz4ohkr7SFJX3vjf+Q6Zj/xg=
+		g+zHiwAQrLAuczffqHoO57yk51A=
 		</data>
 		<key>Modules/TutorialKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/TutorialKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		IGSnVIhYeasHeSQsKomZGXsQD2c=
+		h/qzv0w8FCBlGnYvQbU4kkcdDu0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -65,7 +65,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SsxfHP/zPsASNA1kEul1TP0ovivLxJbR5dgsIYaoqSE=
+			FyDRb9NyRt/Q+jfpdM+Anj1TMBpvIEdEDP0FE5glD2g=
 			</data>
 		</dict>
 		<key>Modules/TutorialKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -93,7 +93,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rtamCi64m4KURhouEqcpg62BorrcyVXThBlJLlZ75iU=
+			ef7p5YIdtaE5CFJ/chR9QHzOISmcaptbnVCPXQetIik=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

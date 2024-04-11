@@ -2299,602 +2299,602 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Model\/TutorialData\/Tutorial.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Model\/TutorialData\/Tutorial.swift",
       "kind": "Array",
       "offset": 1294,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/View\/DescriptionTableViewCell.swift",
       "kind": "StringLiteral",
       "offset": 206,
       "length": 36,
       "value": "\"DescriptionTableViewCellIdentifier\""
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/View\/DescriptionTableViewCell.swift",
       "kind": "BooleanLiteral",
       "offset": 396,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/View\/DescriptionTableViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 467,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/View\/DescriptionTableViewCell.swift",
       "kind": "BooleanLiteral",
       "offset": 781,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/View\/DescriptionTableViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 936,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/View\/DescriptionTableViewCell.swift",
       "kind": "BooleanLiteral",
       "offset": 996,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/View\/DescriptionTableViewCell.swift",
       "kind": "Array",
       "offset": 1134,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/View\/DescriptionTableViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1921,
       "length": 2,
       "value": "34"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/View\/DescriptionTableViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1984,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/View\/DescriptionTableViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2084,
       "length": 2,
       "value": "-8"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/View\/DescriptionTableViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2252,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/View\/DescriptionTableViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2261,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/View\/DescriptionTableViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2272,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/View\/DescriptionTableViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2282,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/View\/DescriptionTableViewCell.swift",
       "kind": "StringLiteral",
       "offset": 2353,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/View\/DescriptionTableViewCell.swift",
       "kind": "BooleanLiteral",
       "offset": 2807,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/View\/DescriptionTableViewCell.swift",
       "kind": "BooleanLiteral",
       "offset": 2901,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/View\/DescriptionTableViewCell.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/View\/DescriptionTableViewCell.swift",
       "kind": "BooleanLiteral",
       "offset": 6189,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Model\/TutorialConfiguration\/BackgroundColor.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Model\/TutorialConfiguration\/BackgroundColor.swift",
       "kind": "FloatLiteral",
       "offset": 1039,
       "length": 4,
       "value": "0.87"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Model\/TutorialConfiguration\/BackgroundColor.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Model\/TutorialConfiguration\/BackgroundColor.swift",
       "kind": "FloatLiteral",
       "offset": 1109,
       "length": 4,
       "value": "0.95"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Model\/TutorialConfiguration\/Configuration.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Model\/TutorialConfiguration\/Configuration.swift",
       "kind": "IntegerLiteral",
       "offset": 1380,
       "length": 2,
       "value": "32"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Model\/TutorialConfiguration\/Configuration.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Model\/TutorialConfiguration\/Configuration.swift",
       "kind": "IntegerLiteral",
       "offset": 1497,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1345,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1532,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1603,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1947,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 2110,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2170,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2450,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2505,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2590,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 2828,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "Array",
       "offset": 2986,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "Array",
       "offset": 3040,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 3383,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "StringLiteral",
       "offset": 3462,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 4367,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 5239,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 6046,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 6109,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 6327,
       "length": 2,
       "value": "-8"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 6493,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 6587,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7129,
+      "offset": 7303,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7135,
+      "offset": 7309,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7227,
+      "offset": 7401,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7302,
+      "offset": 7476,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8136,
+      "offset": 8310,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8538,
+      "offset": 8712,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "StringLiteral",
       "offset": 1137,
       "length": 22,
       "value": "\"TutorialKit.TutorialViewController\""
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9239,
+      "offset": 9337,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9330,
+      "offset": 9428,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9449,
+      "offset": 9547,
       "length": 3,
       "value": "-24"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9807,
+      "offset": 9748,
       "length": 3,
       "value": "-50"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9899,
+      "offset": 9840,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10018,
+      "offset": 9959,
       "length": 3,
       "value": "-24"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10394,
+      "offset": 10178,
       "length": 3,
       "value": "-24"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10486,
+      "offset": 10270,
       "length": 3,
       "value": "-16"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10603,
+      "offset": 10387,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10976,
+      "offset": 10679,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11079,
+      "offset": 10782,
       "length": 3,
       "value": "-24"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11283,
+      "offset": 10986,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11386,
+      "offset": 11089,
       "length": 3,
       "value": "-24"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11604,
+      "offset": 11307,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11697,
+      "offset": 11400,
       "length": 3,
       "value": "-24"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "Array",
-      "offset": 11989,
+      "offset": 11616,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12273,
+      "offset": 11900,
       "length": 3,
       "value": "-24"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12451,
+      "offset": 12078,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12910,
+      "offset": 12537,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13029,
+      "offset": 12656,
       "length": 3,
       "value": "-24"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13592,
+      "offset": 13138,
       "length": 3,
       "value": "-24"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13775,
+      "offset": 13321,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 14043,
+      "offset": 13589,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 14144,
+      "offset": 13690,
       "length": 3,
       "value": "-24"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 14309,
+      "offset": 13855,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 14406,
+      "offset": 13952,
       "length": 3,
       "value": "-24"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16024,
+      "offset": 15570,
       "length": 7,
       "value": "\"hint1\""
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16039,
+      "offset": 15585,
       "length": 5,
       "value": "\"mp3\""
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17208,
+      "offset": 16754,
       "length": 2,
       "value": "34"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17317,
+      "offset": 16863,
       "length": 2,
       "value": "34"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17366,
+      "offset": 16912,
       "length": 3,
       "value": "400"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Controller\/TutorialViewController.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Controller\/TutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17372,
+      "offset": 16918,
       "length": 3,
       "value": "400"
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Manager\/PlaySoundManager.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Manager\/PlaySoundManager.swift",
       "kind": "StringLiteral",
       "offset": 356,
       "length": 28,
       "value": "\"com.jamesthang.TutorialKit\""
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Manager\/PlaySoundManager.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Manager\/PlaySoundManager.swift",
       "kind": "StringLiteral",
       "offset": 613,
       "length": 18,
       "value": "\"Error play sound\""
     },
     {
-      "filePath": "\/Users\/jamesthang\/Downloads\/My_iOS_App\/TutorialKit\/TutorialKit\/Manager\/PlaySoundManager.swift",
+      "filePath": "\/Users\/jamesthang\/Downloads\/My_Sdk\/TutorialKitDevelopment\/TutorialKit\/Manager\/PlaySoundManager.swift",
       "kind": "IntegerLiteral",
       "offset": 925,
       "length": 4,
