@@ -10,8 +10,7 @@
 3. [Installation](#installation)
 4. [Features](#features)
 5. [Usage](#usage)
-6. [Examples](#examples)
-7. [Author](#author)
+6. [Author](#author)
 
 ## Overview
 
@@ -19,6 +18,7 @@
 
 <img src="https://github.com/Enryun/TutorialKit/assets/45484154/7ddce1ee-6783-4a55-9197-26e1abbce29a" width="200">
 <img src="https://github.com/Enryun/TutorialKit/assets/45484154/a53fd5a3-1a92-4a42-b5e1-4645345e92aa" width="200">
+<img src="https://github.com/Enryun/TutorialKit/assets/45484154/ffdd0bf3-5f98-49d3-b98b-9de65b9950e8" width="200">
 
 ## Requirements
 
@@ -44,13 +44,13 @@ For more details on using Swift Package Manager, visit [Apple's Swift Package Ma
 
 ## Usage
 
-### 1. Import `TutorialKit` into your view controller:
+### 5.1. Import `TutorialKit` into your view controller:
 
 ```swift
 import TutorialKit
 ```
 
-### 2. Configure the tutorial appearance by creating an instance of `TutorialConfiguration`:
+### 5.2. Configure the tutorial appearance by creating an instance of `TutorialConfiguration`:
 
 Defines the overall look, feel, and behavior of the tutorial experience. Allows developers to tailor the tutorial component to seamlessly fit within the aesthetic and functional aspects of their app.
 
@@ -70,7 +70,7 @@ You can customize the title, description, background color, sound, and alignment
 - `sound`: Choose a sound effect for interactive elements within the tutorial, enhancing the user experience.
 - `alignment` here is Global Alignment: Specifies the default alignment for tutorial steps, with the option for individual steps to override this setting later when configure individual `Tutorial`.
 
-### 3. Configure the Tutorial Data:
+### 5.3. Configure the Tutorial Data:
 
 Prepare the data for each tutorial step by creating instances of `Tutorial`. Each instance can include a title, description(s), alignment, and a defined transparent area.
 
@@ -97,19 +97,22 @@ let tutorials = [
                     .withTintColor(.label)
             )
         ],
-        alignment: .bottom,
+        alignment: .center,
         transparentArea: .init(x: 100, y: 100, width: 150, height: 150, cornerRadius: 0)
     )
     // Add more Tutorial instances as needed.
 ]
 ```
+Result: 
+
+<img src="https://github.com/Enryun/TutorialKit/assets/45484154/133745b6-b28f-498d-b6ab-0c91bf8fa6f0" width="200">
 
 - `title`: The main heading of a tutorial step, optionally accompanied by an image to illustrate the concept.
 - `description`: Detailed information or instructions for the tutorial step, which can also include images for a more engaging presentation.
 - `alignment`: Determines the screen position of the tutorial content, aiding in highlighting various UI elements.
 - `transparentArea`: Defines a specific area of the screen to remain visible and interactive, focusing the user's attention on certain actions or features.
 
-### 4.  Initialize and Present the TutorialViewController:
+### 5.4.  Initialize and Present the TutorialViewController:
 
 Create an instance of TutorialViewController with your data and configuration, then present it.
 
@@ -120,8 +123,6 @@ present(vc, animated: true)
 ```
 
 That's it. When finished navigate through the data array, `TutorialViewController` will automatically be removed.
-
-## Examples
 
 ## Author
 James Thang, find me on [LinkedIn](https://www.linkedin.com/in/jamesthang/)
