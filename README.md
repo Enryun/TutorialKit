@@ -107,6 +107,7 @@ Result:
 
 <img src="https://github.com/Enryun/TutorialKit/assets/45484154/133745b6-b28f-498d-b6ab-0c91bf8fa6f0" width="200">
 
+
 - `title`: The main heading of a tutorial step, optionally accompanied by an image to illustrate the concept.
 - `description`: Detailed information or instructions for the tutorial step, which can also include images for a more engaging presentation.
 - `alignment`: Determines the screen position of the tutorial content, aiding in highlighting various UI elements.
