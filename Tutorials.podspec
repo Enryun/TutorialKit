@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "Tutorials"
-  spec.version      = "1.1.0"
+  spec.version      = "1.1.1"
   spec.summary      = "Help developers create interactive tutorial experience for iOS applications"
 
   # This description is used to generate tags and improve search results.
