@@ -104,11 +104,13 @@ SOFTWARE.' }
   #  Not including the public_header_files will make all headers public.
   #
 
+  spec.module_name = 'TutorialKit'
   spec.source_files  = "Sources", "Sources/**/*.{h,m}"
   spec.exclude_files = "Sources/Exclude"
+  spec.swift_versions = '5.4'
 
   # spec.public_header_files = "Classes/**/*.h"
-
+  # "Sources", "Sources/**/*.{h,m}"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
