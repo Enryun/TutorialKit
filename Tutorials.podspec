@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "Tutorials"
-  spec.version      = "1.1.1"
+  spec.version      = "1.1.2"
   spec.summary      = "Help developers create interactive tutorial experience for iOS applications"
 
   # This description is used to generate tags and improve search results.
@@ -93,7 +93,7 @@ SOFTWARE.' }
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/Enryun/TutorialKit.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/Enryun/TutorialKitDevelop.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -105,7 +105,7 @@ SOFTWARE.' }
   #
 
   spec.module_name = 'TutorialKit'
-  spec.source_files  = "Sources", "Sources/**/*.{h,m}"
+  spec.source_files  = "TutorialKit", "TutorialKit/**/*.{h,m}"
   spec.exclude_files = "Sources/Exclude"
   spec.swift_versions = '5.4'
 
