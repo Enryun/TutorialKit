@@ -1,6 +1,7 @@
 # TutorialKit
 
 ![iOS 12.0+](https://img.shields.io/badge/iOS-12.0%2B-blue.svg)
+[![Pod Version](http://img.shields.io/cocoapods/v/SDWebImage.svg?style=flat)](https://cocoapods.org/pods/Tutorials)
 [![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://mit-license.org)
 
@@ -27,7 +28,7 @@
 | iOS      | 12.0            |
 
  ## Installation
-This project can be installed using Swift Package Manager and CocoaPod.
+This project can be installed using `Swift Package Manager` and `CocoaPod`.
 
 ### Swift Package Manager
 
@@ -39,6 +40,8 @@ This project can be installed using Swift Package Manager and CocoaPod.
 For more details on using Swift Package Manager, visit [Apple's Swift Package Manager documentation](https://swift.org/package-manager/).
 
 ### CocoaPods
+
+[CocoaPods](http://cocoapods.org/) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries in your projects. See the [Get Started](http://cocoapods.org/#get_started) section for more details.
 
 Add the following entry to your Podfile:
 
