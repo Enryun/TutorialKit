@@ -27,7 +27,9 @@
 | iOS      | 12.0            |
 
  ## Installation
-This project can be installed using Swift Package Manager.
+This project can be installed using Swift Package Manager and CocoaPod.
+
+### Swift Package Manager
 
 1. Open your project in Xcode.
 2. Navigate to `File` > `Swift Packages` > `Add Package Dependency`.
@@ -35,6 +37,18 @@ This project can be installed using Swift Package Manager.
 4. Follow the prompts to add the package to your project.
 
 For more details on using Swift Package Manager, visit [Apple's Swift Package Manager documentation](https://swift.org/package-manager/).
+
+### CocoaPods
+
+Add the following entry to your Podfile:
+
+```rb
+pod 'Tutorials', '~> 1.1.3'
+```
+
+Then run `pod install`.
+
+Don't forget to `import TutorialKit` in every file you'd like to use Hero.
 
 ## Features
 - Customizable tutorial steps with `Tutorial` structs.
