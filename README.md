@@ -51,7 +51,7 @@ pod 'Tutorials', '~> 1.1.3'
 
 Then run `pod install`.
 
-Don't forget to `import TutorialKit` in every file you'd like to use Hero.
+Don't forget to `import TutorialKit` in every file you'd like to use it.
 
 ## Features
 - Customizable tutorial steps with `Tutorial` structs.
